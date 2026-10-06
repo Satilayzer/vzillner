@@ -1,0 +1,1 @@
+import{t as e}from"./rolldown-runtime.Dh6celcD.mjs";var t,n,r;e((()=>{t=`‹ `,n=` ›`,r={exports:{v1:{type:`variable`,annotations:{framerContractVersion:`1`}},v0:{type:`variable`,annotations:{framerContractVersion:`1`}},__FramerMetadata__:{type:`variable`}}}}))();export{r as __FramerMetadata__,t as v0,n as v1};
