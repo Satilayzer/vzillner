@@ -272,7 +272,7 @@ def main():
     ssr_dict.update(DESCRIPTION_RU)
     ssr_dict.update(MANUAL_PAIRS)
     for item_id, de in de_items.items():
-        ssr_dict[f'{de[TITLE]} | Avrix'] = f'{ru_items[item_id][TITLE]} | Avrix'
+        ssr_dict[f'{de[TITLE]}'] = f'{ru_items[item_id][TITLE]}'
     jobs = [(p, '/' if p == 'index.html' else '/' + p[:-5]) for p in PAGES]
     jobs += [(f'behandlung/{f.name}', f'/behandlung/{f.stem}') for f in sorted((ROOT / 'behandlung').glob('*.html'))]
     for rel, url_path in jobs:
